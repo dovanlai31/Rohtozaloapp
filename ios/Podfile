@@ -1,0 +1,116 @@
+# Uncomment the next line to define a global platform for your project
+#  platform :ios, '11.0'
+#  require_relative '../node_modules/react-native-permissions/scripts/setup'
+#  setup_permissions([
+#   # 'AppTrackingTransparency',
+#   # 'BluetoothPeripheral',
+#   # 'Calendars',
+#   'Camera',
+#   # 'Contacts',
+#   # 'FaceID',
+#   'LocationAccuracy',
+#   'LocationAlways',
+#   # 'LocationWhenInUse',
+#   # 'MediaLibrary',
+#   # 'Microphone',
+#   # 'Motion',
+#   'Notifications',
+#   'PhotoLibrary'
+#   # 'PhotoLibraryAddOnly',
+#   # 'Reminders',
+#   # 'SpeechRecognition',
+#   # 'StoreKit'
+# ])
+
+target 'AppQL591' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for AppQL591
+
+
+
+  
+
+  pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
+  pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
+  pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
+  pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
+  pod 'React', :path => '../node_modules/react-native/'
+  
+  pod 'React-Core', :path => '../node_modules/react-native/'
+  pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
+  pod 'React-Core/DevSupport', :path => '../node_modules/react-native/'
+  pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
+  pod 'React-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
+  pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
+  pod 'React-RCTImage', :path => '../node_modules/react-native/Libraries/Image'
+  pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
+  pod 'React-RCTNetwork', :path => '../node_modules/react-native/Libraries/Network'
+  pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
+  pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
+  pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
+  pod 'React-Core/RCTWebSocket', :path => '../node_modules/react-native/'
+  pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
+  pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
+  pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
+  pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
+  pod 'ReactCommon/jscallinvoker', :path => "../node_modules/react-native/ReactCommon"
+  pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
+  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+  pod 'RNSnackbar', :path => '../node_modules/react-native-snackbar'
+
+  rn_path = '../node_modules/react-native'
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-maps', path: rn_maps_path
+  pod 'react-native-google-maps', path: rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+
+  pod 'TouchID', :path => '../node_modules/react-native-touch-id'
+  pod 'ReactNativeNavigation', :path => '../node_modules/react-native-navigation'
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+  pod 'react-native-viewpager', :path => '../node_modules/@react-native-community/viewpager'
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+  #pod 'react-native-pager-view', :path => '../node_modules/react-native-pager-view'
+
+  # pod 'toolbar-android', :path => '../node_modules/@react-native-community/toolbar-android'
+
+  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
+
+  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+  # permissions_path = '../node_modules/react-native-permissions/ios'
+  # pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+
+  pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+
+  pod 'RNFBAnalytics', :path => '../node_modules/@react-native-firebase/analytics'
+
+  target 'AppQL591Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+target 'AppQL591-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for AppQL591-tvOS
+
+  target 'AppQL591-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

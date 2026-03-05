@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>585844790737-bmjic2vef36tvvm9976hkvhgc18ils9s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.585844790737-bmjic2vef36tvvm9976hkvhgc18ils9s</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>585844790737-pqnmjp27un1dn0na67cag2orr5d8rh49.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAJauTDvy7UTTSU_wqPKYqR5l1trZdRI8c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>585844790737</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.geso.vifonshop</string>
+	<key>PROJECT_ID</key>
+	<string>bibicashop</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bibicashop.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:585844790737:ios:658eb8483d3260e3e2fcf0</string>
+	<key>DATABASE_URL</key>
+	<string>https://bibicashop.firebaseio.com</string>
+</dict>
+</plist>

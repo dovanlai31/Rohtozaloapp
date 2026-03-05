@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395710872095",
+    "project_id": "rvopv-vng-tin-gn-kt",
+    "storage_bucket": "rvopv-vng-tin-gn-kt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395710872095:android:1dd76f4cb241d52cc1332a",
+        "android_client_info": {
+          "package_name": "com.geso.opvshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT4LeK_6qtq9mh2sUlbwtaYc8JqJkdbD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

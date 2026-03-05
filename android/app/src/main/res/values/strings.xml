@@ -1,0 +1,5 @@
+<resources>
+	<string moduleConfig="true" name="CodePushDeploymentKey">bROcoX1vm46QydjZDn6eBDW4nY1-4kZcJfI2Ze</string>
+    <string name="app_name">RV-OPV Vững tin gắn kết</string>
+    <string moduleConfig="true" name="CodePushServerUrl">http://1.53.252.173:5931</string>
+</resources>
